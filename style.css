@@ -1,0 +1,916 @@
+@charset "UTF-8";
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  display: block;
+  line-height: 1.7em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  font-family: "Verdana", Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+main#content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0 1fr;
+      grid-template-columns: 0 1fr;
+  background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+  background-position: 50% 50px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -ms-grid-rows: 50px 50% 1fr;
+      grid-template-rows: 50px 50% 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+figure {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+figure img {
+  display: block;
+  margin: auto;
+}
+
+figure figcaption {
+  background-color: #fff;
+  padding: 0.5em;
+  margin-top: 0.25em;
+  border: 5px solid #000;
+}
+
+figure figcaption p {
+  line-height: 1.7em;
+  background-color: #fff;
+  display: block;
+}
+
+.imageOne {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 2 / 2 / 4;
+  background-color: #282a3f;
+  color: #fff;
+}
+
+.header h1 {
+  line-height: 50px;
+  font-size: 0.9em;
+}
+
+.text {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 3 / 1 / 4 / 3;
+  padding: 0;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.text h2 {
+  display: block;
+  clear: both;
+  text-align: left;
+  line-height: 40px;
+  width: 100%;
+  background-color: #282a3f;
+  color: #fff;
+  text-indent: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.text ul#facts {
+  width: 100%;
+}
+
+.text ul#facts li {
+  background-color: #fff;
+  display: block;
+  line-height: 20px;
+  margin-bottom: 0.2em;
+  padding: 0.2em 0;
+}
+
+.text ul#facts li::before {
+  content: "✨";
+}
+
+.text figure#img2 {
+  display: block;
+  float: none;
+  padding: 0;
+  margin: 0.25em auto;
+  width: 90%;
+}
+
+.text figure#img3 {
+  display: block;
+  float: none;
+  padding: 0;
+  margin: 0.25em auto;
+  width: 90%;
+}
+
+.text p {
+  width: auto;
+  line-height: 1.8em;
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+}
+
+footer {
+  height: 80px;
+}
+
+@media only screen and (min-width: 1920px) {
+  #wrapper {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
+    height: auto;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% (1fr)[2];
+        grid-template-columns: 42% repeat(2, 1fr);
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-image: url("images/pngfind.com-obama-png-309556-height-800px.webp");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    height: 100vh;
+  }
+  figure {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+    padding: 0.5em;
+    margin-top: 0.25em;
+    border: 5px solid #000;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+    background-color: #fff;
+    display: block;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+  }
+  .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 2 / 4 / 4;
+    padding: 0;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .text h2 {
+    display: block;
+    clear: right;
+    text-align: left;
+    line-height: 40px;
+    width: 100%;
+    background-color: #282a3f;
+    color: #fff;
+    text-indent: 0.25em;
+    margin-bottom: 0.5em;
+  }
+  .text ul#facts {
+    width: 100%;
+  }
+  .text ul#facts li {
+    background-color: #fff;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 0.2em;
+    padding: 0.2em 0;
+  }
+  .text ul#facts li::before {
+    content: "✨";
+  }
+  .text figure#img2 {
+    float: right;
+    padding-left: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: right;
+    padding-left: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 1em;
+    width: auto;
+  }
+  .text p {
+    width: auto;
+    line-height: 1.8em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  #wrapper {
+    width: 70%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% (1fr)[2];
+        grid-template-columns: 42% repeat(2, 1fr);
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-image: url("images/pngfind.com-obama-png-309556-height-800px.webp");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    height: 100vh;
+  }
+  figure {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+    padding: 0.5em;
+    margin-top: 0.25em;
+    border: 5px solid #000;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+    background-color: #fff;
+    display: block;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+  }
+  .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 2 / 4 / 4;
+    padding: 0;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .text h2 {
+    display: block;
+    clear: right;
+    text-align: left;
+    line-height: 40px;
+    width: 100%;
+    background-color: #282a3f;
+    color: #fff;
+    text-indent: 0.25em;
+    margin-bottom: 0.5em;
+  }
+  .text ul#facts {
+    width: 100%;
+  }
+  .text ul#facts li {
+    background-color: #fff;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 0.2em;
+    padding: 0.2em 0;
+  }
+  .text ul#facts li::before {
+    content: "✨";
+  }
+  .text figure#img2 {
+    float: right;
+    padding-left: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: right;
+    padding-left: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.25em;
+    margin-bottom: 1em;
+    width: auto;
+  }
+  .text p {
+    width: auto;
+    line-height: 1.8em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+  #wrapper {
+    width: 80%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% (1fr)[2];
+        grid-template-columns: 42% repeat(2, 1fr);
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-image: url("images/pngfind.com-obama-png-309556-height-800px.webp");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    height: 100vh;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+    font-size: 0.95em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+  }
+  .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 2 / 4 / 4;
+  }
+  .text h2 {
+    font-size: 1.4em;
+  }
+  .text figure#img2 {
+    float: right;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: left;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text p {
+    font-size: 0.95em;
+  }
+  ul#facts li {
+    font-size: 0.9em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  #wrapper {
+    width: 96%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42% (1fr)[2];
+        grid-template-columns: 42% repeat(2, 1fr);
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-image: url("images/pngfind.com-obama-png-309556-height-800px.webp");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    height: 100vh;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+    font-size: 1.6em;
+  }
+  .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 2 / 2 / 4 / 4;
+  }
+  .text h2 {
+    font-size: 1.3em;
+  }
+  .text figure#img2 {
+    float: right;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: left;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text p {
+    font-size: 0.9em;
+  }
+  ul#facts li {
+    font-size: 0.9em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  #wrapper {
+    width: 98%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0 1fr;
+        grid-template-columns: 0 1fr;
+    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-position: 50% 50px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+    font-size: 1.1em;
+  }
+  .text {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .text h2 {
+    font-size: 1.2em;
+  }
+  .text p {
+    font-size: 0.9em;
+  }
+  .text figure#img2 {
+    float: right;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: left;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  ul#facts li {
+    font-size: 0.9em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 799px) {
+  #wrapper {
+    width: 98%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0 1fr;
+        grid-template-columns: 0 1fr;
+    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-position: 50% 50px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+    font-size: 1em;
+  }
+  .text {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .text h2 {
+    font-size: 1.3em;
+  }
+  .text figure#img2 {
+    float: right;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: left;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text p {
+    font-size: 0.85em;
+  }
+  ul#facts li {
+    font-size: 0.85em;
+    line-height: 30px;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 666px) {
+  #wrapper {
+    width: 98%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0 1fr;
+        grid-template-columns: 0 1fr;
+    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-position: 50% 50px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+    font-size: 1em;
+  }
+  .text {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .text h2 {
+    clear: left;
+    font-size: 1.2em;
+  }
+  .text figure#img2 {
+    float: right;
+    width: auto;
+  }
+  .text figure#img3 {
+    float: left;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em;
+    width: auto;
+  }
+  .text p {
+    font-size: 0.85em;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  ul#facts li {
+    font-size: 0.85em;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  #wrapper {
+    width: 98%;
+  }
+  main#content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0 1fr;
+        grid-template-columns: 0 1fr;
+    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-position: 50% 50px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -ms-grid-rows: 50px 50% 1fr;
+        grid-template-rows: 50px 50% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  figure img {
+    display: block;
+  }
+  figure figcaption {
+    background-color: #fff;
+  }
+  figure figcaption p {
+    line-height: 1.7em;
+  }
+  .imageOne {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #282a3f;
+    color: #fff;
+  }
+  .header h1 {
+    line-height: 50px;
+    font-size: 1em;
+  }
+  .text {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .text h2 {
+    clear: left;
+    font-size: 1.1em;
+  }
+  .text figure#img2 {
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0.25em auto;
+    width: 90%;
+  }
+  .text figure#img3 {
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0.25em auto;
+    width: 90%;
+  }
+  .text p {
+    font-size: 0.8em;
+    line-height: 1.8em;
+  }
+  ul#facts li {
+    font-size: 0.8em;
+    line-height: 30px;
+  }
+  footer {
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
