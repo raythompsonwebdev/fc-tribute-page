@@ -36,7 +36,7 @@ main#content {
   background-image: url("images/pngfind.com-obama-png-309471-800px.png");
   background-position: 50% 50px;
   transition: all 0.1s ease-in-out;
-  grid-template-rows: 50px 50% 1fr;
+  grid-template-rows: 50px 20% 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   background-size: auto;
@@ -104,6 +104,10 @@ figure {
       padding: 0.2em 0;
       &::before {
         content: "✨";
+        display: block;
+        width: 30px;
+        float: left;
+        
       }
     }
   }
@@ -130,6 +134,7 @@ figure {
     display: block;
     margin-bottom: 0.5em;
     font-size:0.8em;
+    background-color: rgba(255, 255, 255, 0.9);
   }
 }
 
@@ -191,6 +196,7 @@ footer {
     color: #fff;
     h1 {
       line-height: 50px;
+      font-size: 1.4em;
     }
   }
   .text {
@@ -304,6 +310,7 @@ footer {
     color: #fff;
     h1 {
       line-height: 50px;
+      font-size: 1.3em;
     }
   }
   .text {
@@ -410,6 +417,7 @@ footer {
     color: #fff;
     h1 {
       line-height: 50px;
+      font-size: 1.3em;
     }
   }
   .text {
@@ -487,7 +495,7 @@ footer {
 
     h1 {
       line-height: 50px;
-      font-size: 1.6em;
+      font-size: 1.2em;
     }
   }
   .text {
@@ -666,6 +674,7 @@ footer {
 
     p {
       font-size: 0.85em;
+      background-color: rgba(255, 255, 255, 0.9);
     }
   }
 
@@ -692,7 +701,7 @@ footer {
     background-image: url("images/pngfind.com-obama-png-309471-800px.png");
     background-position: 50% 50px;
     transition: all 0.1s ease-in-out;
-    grid-template-rows: 50px 50% 1fr;
+    grid-template-rows: 50px 40% 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     background-size: auto;
@@ -772,7 +781,7 @@ footer {
     background-image: url("images/pngfind.com-obama-png-309471-800px.png");
     background-position: 50% 50px;
     transition: all 0.1s ease-in-out;
-    grid-template-rows: 50px 50% 1fr;
+    grid-template-rows: 50px 30% 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     background-size: auto;
@@ -827,8 +836,9 @@ footer {
       width: 90%;
     }
     p {
-      font-size: 0.8em;
+      font-size: 0.85em;
       line-height: 1.8em;
+      background-color: rgba(255, 255, 255, 0.9);
     }
   }
   ul#facts {

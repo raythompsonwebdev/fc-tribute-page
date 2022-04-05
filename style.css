@@ -45,8 +45,8 @@ main#content {
   background-position: 50% 50px;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-  -ms-grid-rows: 50px 50% 1fr;
-      grid-template-rows: 50px 50% 1fr;
+  -ms-grid-rows: 50px 20% 1fr;
+      grid-template-rows: 50px 20% 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   background-size: auto;
@@ -137,6 +137,9 @@ figure figcaption p {
 
 .text ul#facts li::before {
   content: "✨";
+  display: block;
+  width: 30px;
+  float: left;
 }
 
 .text figure#img2 {
@@ -161,6 +164,7 @@ figure figcaption p {
   display: block;
   margin-bottom: 0.5em;
   font-size: 0.8em;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 footer {
@@ -230,6 +234,7 @@ footer {
   }
   .header h1 {
     line-height: 50px;
+    font-size: 1.4em;
   }
   .text {
     -ms-grid-row: 2;
@@ -350,6 +355,7 @@ footer {
   }
   .header h1 {
     line-height: 50px;
+    font-size: 1.3em;
   }
   .text {
     -ms-grid-row: 2;
@@ -461,6 +467,7 @@ footer {
   }
   .header h1 {
     line-height: 50px;
+    font-size: 1.3em;
   }
   .text {
     -ms-grid-row: 2;
@@ -543,7 +550,7 @@ footer {
   }
   .header h1 {
     line-height: 50px;
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   .text {
     -ms-grid-row: 2;
@@ -733,6 +740,7 @@ footer {
   }
   .text p {
     font-size: 0.85em;
+    background-color: rgba(255, 255, 255, 0.9);
   }
   ul#facts li {
     font-size: 0.85em;
@@ -756,8 +764,8 @@ footer {
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-    -ms-grid-rows: 50px 50% 1fr;
-        grid-template-rows: 50px 50% 1fr;
+    -ms-grid-rows: 50px 40% 1fr;
+        grid-template-rows: 50px 40% 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     background-size: auto;
@@ -840,8 +848,8 @@ footer {
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-    -ms-grid-rows: 50px 50% 1fr;
-        grid-template-rows: 50px 50% 1fr;
+    -ms-grid-rows: 50px 30% 1fr;
+        grid-template-rows: 50px 30% 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     background-size: auto;
@@ -902,8 +910,9 @@ footer {
     width: 90%;
   }
   .text p {
-    font-size: 0.8em;
+    font-size: 0.85em;
     line-height: 1.8em;
+    background-color: rgba(255, 255, 255, 0.9);
   }
   ul#facts li {
     font-size: 0.8em;
