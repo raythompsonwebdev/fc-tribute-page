@@ -41,7 +41,7 @@ main#content {
   display: grid;
   -ms-grid-columns: 0 1fr;
       grid-template-columns: 0 1fr;
-  background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+  background-image: url("images/pngfind.com-obama-png-309471-800px.webp");
   background-position: 50% 50px;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
@@ -594,7 +594,7 @@ footer {
     display: grid;
     -ms-grid-columns: 0 1fr;
         grid-template-columns: 0 1fr;
-    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-image: url("images/pngfind.com-obama-png-309471-800px.webp");
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
@@ -676,7 +676,7 @@ footer {
     display: grid;
     -ms-grid-columns: 0 1fr;
         grid-template-columns: 0 1fr;
-    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-image: url("images/pngfind.com-obama-png-309471-800px.webp");
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
@@ -760,7 +760,7 @@ footer {
     display: grid;
     -ms-grid-columns: 0 1fr;
         grid-template-columns: 0 1fr;
-    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-image: url("images/pngfind.com-obama-png-309471-800px.webp");
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
@@ -844,7 +844,7 @@ footer {
     display: grid;
     -ms-grid-columns: 0 1fr;
         grid-template-columns: 0 1fr;
-    background-image: url("images/pngfind.com-obama-png-309471-800px.png");
+    background-image: url("images/pngfind.com-obama-png-309471-800px.webp");
     background-position: 50% 50px;
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
